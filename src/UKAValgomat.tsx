@@ -1,17 +1,8 @@
 import React, { useMemo, useState } from "react";
 
-// UKA Valgomat – enkel én-filskomponent
-// ------------------------------------------------------
-// Slik bruker du denne malen:
-// 1) Lim komponenten inn i et nytt React-prosjekt (Vite/Next) og rendrer <UKAValgomat /> på en side.
-// 2) Tilpass QUESTIONS og POSITIONS nedenfor. Bytt ut eksempelrollene med UKAs 37 roller.
-// 3) (Valgfritt) Endre tekstene under UI_STRINGS for bokmål/nynorsk/engelsk.
-// 4) Del siden – ingen backend nødvendig. All logikk skjer i nettleseren.
-// ------------------------------------------------------
 
-// -------------------- Språk/tekster --------------------
 const UI_STRINGS = {
-  title: "Finn din UKA-rolle",
+  title: "Finn ditt UKA-UKEverv",
   intro:
     "Svar på noen raske påstander, så matcher vi deg med de rollene som passer best.",
   start: "Start",
@@ -27,8 +18,8 @@ const UI_STRINGS = {
   norwegian: "Norsk",
   english: "Engelsk",
   questionsTitle: "Om deg",
-  sliderLeft: "Uenig",
-  sliderRight: "Enig",
+  sliderLeft: "uenig",
+  sliderRight: "enig",
   whyThisFits: "Hvorfor dette passer:",
   adjustPrefs: "Juster svarene dine under for å se endringer i sanntid.",
 };
