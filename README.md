@@ -17,4 +17,4 @@ npm run preview
 
 ## Notes
 - Requires Node.js 18+.
-- All role logic is in `src/UKAValgomat.tsx` (arrays `QUESTIONS` and `POSITIONS`). Edit as you like.
+- All role logic is in `src/UKAValgomat.tsx` (arrays `QUESTIONS` and `POSITIONS`). 
